@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-icon {
+  height: 24px;
+}
+
+.header-col-1 {
+  display: flex;
+}
+
+.search {
+  display: flex;
+  justify-self: center;
+}
+
+.header-col-3 {
+  display: flex;
+}
