@@ -68,3 +68,38 @@
   padding: 2px 5px;
   margin-right: 10px;
 }
+
+/* Videos */
+
+.videos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-information {
+  display: flex;
+}
+
+.video-information img {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.channel-name-row {
+  display: flex;
+  align-items: center;
+}
+
+.verified-icon {
+  height: 15px;
+}
+
+.three-dots-icon {
+  height: 40px;
+}
