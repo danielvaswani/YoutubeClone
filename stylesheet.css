@@ -73,7 +73,8 @@
 
 .videos {
   display: grid;
-  grid-auto-columns: 300px;
+  grid-template-columns: repeat(auto-fit, 350px);
+  justify-content: center;
 }
 
 .video-container {
