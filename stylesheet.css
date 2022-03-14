@@ -74,7 +74,7 @@
 .videos {
   display: grid;
   grid-template-columns: repeat(auto-fit, 350px);
-  justify-content: center;
+  justify-content: start;
 }
 
 .video-container {
